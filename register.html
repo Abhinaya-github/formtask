@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <pre>
+    <h1> Register Page</h1>
+    <form action="registersuccess.html"method="get">
+        <label for="username"> username</label> <input type="text" id="username"name="username" pattern="(?=.*[a-z])(?=.*[A-Z])[a-zA-z]{3,10}" title="should contain atleast 1  lowercase 1 uppercase size of 3 to 10"required ><br><br>
+         <label for="password">password</label> <input type="password" id="password"name="password" pattern="(?=.*[a-z])(?=.*[A-Z])[a-zA-z]{3,10}" title="should contain atleast 1  lowercase 1 uppercase size of 3 to 10" required><br><br>
+         <label for="email">Email</label>    <input type="email" id="email"name="email" required> 
+          <br>
+        
+         Gender<label for="=male" name="gender">    male</label><input type="radio" id="male"name="gender">  <label for="=female" name="gender">female</label><input type="radio" id="female"name="gender" required>
+       <br>
+       <br> <input type="submit"></form><form action="index.html" method="get"> <br><label for="goback"></label> <input type="submit"id="goback"name="GoBack" value="<-GoBack">
+       </form>
+    </pre>
+</fieldset>
+</body>
+</html>
